@@ -65,41 +65,4 @@ public class RegistroAcademico extends Estudiante{
         }
     }
 }
-        /*for (int i = 0; i < estudiantes.length-1; i++) {
-            int indice=i;
-            for (int j = 0; j < estudiantes.length; j++) {
-                if (estudiantes[j].getEdad()<estudiantes[indice].getEdad()){
-                    indice=j;
-            }    
-        }
-             Estudiante cambio=estudiantes[i];
-             estudiantes[i]=estudiantes[indice];
-             estudiantes[indice]=cambio;
-        }
-       System.out.println("*******************CAMBIO EDADES*******************");
-       for (Estudiante estudiante : estudiantes) {
-            System.out.println(estudiante.getNombre() + "\t" + estudiante.getIdent() + "\t" + estudiante.getEdad() + "\t" + 
-                    estudiante.getNotMate() + "\t"+ estudiante.getNotIngles() + "\t  " + estudiante.getNotCiencias() + "\t" + "\t" + estudiante.getPromTot());
-         
-        }
-        
-       for (int i = 0; i < estudiantes.length-1; i++) {
-            for (int j = 0; j < estudiantes.length; j++) {
-                if (estudiantes[i].getPromTot()>estudiantes[j].getPromTot()){
-            }Estudiante cambio=estudiantes[i];
-             estudiantes[i]=estudiantes[j];
-             estudiantes[j]=cambio; 
-        } 
-       }
-             System.out.println("*********************CAMBIO PROMEDIO*******************");
-       for (Estudiante estudiante : estudiantes) {
-            System.out.println(estudiante.getNombre() + "\t" + estudiante.getIdent() + "\t" + estudiante.getEdad() + "\t" + 
-                    estudiante.getNotMate() + "\t"+ estudiante.getNotIngles() + "\t  " + estudiante.getNotCiencias() + "\t" + "\t" + estudiante.getPromTot());
-         
-       }
-    }
-}
-        
-*/
-        
-
+       
